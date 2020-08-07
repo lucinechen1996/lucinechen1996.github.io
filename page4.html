@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>   
+<head>
+    <meta charset="utf-8"></meta>
+    <title>資料分析協作服務申請</title>
+    <style type="text/css">
+        table {
+                table-layout:fixed;word-break:break-all;border-collapse: collapse;
+          }
+        </style>
+</head>
+<body>
+    <center>
+        <table border="0" width='600px' style="table-layout:fixed;border-width:0px;border-style:solid;font-family:Microsoft JhengHei;">
+            <tr>
+                <td>分析操作定義</td>
+            </tr>
+            <tr>
+                <td>1.研究對象定義(選樣條件)<br>◎Inclusion<br>(詳列:擷取資料檔、擷取年份、擷取定義與變項代碼、個案是否為新發生)<br>※若有需要利用藥品或處置定義分析族群，則需另外提供藥品代碼或處置代碼，並說明擷取資料檔、擷取年份、擷取定義。<br>※藥品代碼/處置代碼請另用EXCEL檔整理(藥品健保代碼為10碼之代碼)<br><textarea style="resize:none;width:590px;height:100px;" id="inclusion" wrap="hard"></textarea><br>◎Exclusion<br>(詳列所有需要排除的條件，包含定義排除條件之資料檔、年份、定義)<br><textarea style="resize:none;width:590px;height:100px;" id="exclusion" wrap="hard"></textarea></td>
+            </tr>
+            <tr>
+                <td>2.相關變項(其他相關因子，如共病、疾病史、用藥史等)定義<br>(詳列:擷取資料檔、擷取年份、擷取定義與變項代碼)<br>◎共病<br><textarea style="resize:none;width:590px;height:100px;" id="inclusion" wrap="hard"></textarea><br>◎用藥史<br><textarea style="resize:none;width:590px;height:100px;" id="inclusion" wrap="hard"></textarea><br>◎配對條件<br><textarea style="resize:none;width:590px;height:100px;" id="inclusion" wrap="hard"></textarea></td>
+            </tr>
+            <tr>
+                <td>3.結果變項定義<br>(詳列:擷取資料檔、擷取年份、擷取定義與變項代碼)<br>※若有需要做Subgroup的分析也請列在此說明<br><textarea style="resize:none;width:590px;height:100px;" id="inclusion" wrap="hard"></textarea></td>
+            </tr>
+            <tr>
+                <td>4.預期結果簡述<br><textarea style="resize:none;width:590px;height:100px;" id="inclusion" wrap="hard"></textarea></td>
+            </tr>
+
+        </table>
+    </br>
+    <input type="button" value="下一頁" onclick="location.href='要前往的網頁連結'">
+    </center>   
+</body>
+</html>

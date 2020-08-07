@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>   
+<head>
+    <meta charset="utf-8"></meta>
+    <title>資料分析協作服務申請</title>
+    <style type="text/css">
+        table {
+                table-layout:fixed;word-break:break-all;border-collapse: collapse;
+          }
+        </style>
+</head>
+<body>
+  <center>
+    <table border="1" width='600px' style="table-layout:fixed;border-width:0px;border-style:solid;font-family:Microsoft JhengHei;">
+        <tr height='30px'>
+          <td bgcolor="#ADADAD">申請服務費用估計(由統計室填寫)</td>
+        </tr>
+        <tr height='30px'>
+          <td><input name="NORMALSERVICE" type="checkbox" value="ON" "/><label for="NORMALSERVICE">一般資料協作服務申請(每小時$1250元)</label><br>
+            1.協作前諮詢討論______小時(不計費)<br>
+            2.研究資料收集整理______小時<br>
+            3.分析程式撰寫______小時<br>
+            4.分析程式執行______小時<br>
+            5.分析結果作表繪圖______小時<br>
+            6.交付結果______小時<br>
+            合計______小時*NT$1,250=總計費用NT_________<br>
+            <input name="URGENTSERVICE" type="checkbox" value="ON" "/><label for="URGENTSERVICE">急件資料協作服務申請(每小時$2500元)</label><br>
+            1.協作前諮詢討論______小時(不計費)<br>
+            2.研究資料收集整理______小時<br>
+            3.分析程式撰寫______小時<br>
+            4.分析程式執行______小時<br>
+            5.分析結果作表繪圖______小時<br>
+            6.交付結果______小時<br>
+            合計______小時*NT$2500=總計費用NT$_________<br>  
+          </td>
+        </tr>  
+        <tr height='30px'>
+          <td bgcolor="#ADADAD">IRB審核通過證明文件</td>
+        </tr>  
+        <tr height='30px'>
+          <td><input name="NO" type="checkbox" value="ON" "/><label for="NO">無</label>
+            <input name="YES" type="checkbox" value="ON" "/><label for="YES">有(需提供證明文件PDF檔)</label></td>
+        </tr>  
+        <tr height='30px'>
+          <td bgcolor="#ADADAD">急件資料分析協作服務切結書(急件資料協作服務申請需繳交)</td>
+        </tr>  
+        <tr height='30px'>
+          <td><input name="finished" type="checkbox" value="ON" "/><label for="finished">已送完成簽署之急件資料分析協作服務切結書</label></td>
+        </tr>  
+        <tr height='30px'>
+          <td bgcolor="#ADADAD">簽名欄</td>
+        </tr>  
+        <tr height='30px'>
+          <td><span style="color:brown">本人已完全瞭解資料分析協作流程與資料分析協作申請費用，對於上述申請表內容已確認無誤，並擔保提供協作分析之資料是經正規管道程序申請取得，如違反所有相關法令及規定所致一切後果，由本人負全部責任。</span><br>
+            計畫主持人：　　　　　　（中文正楷簽名）西元　　　　年　　月　　日<br><br>
+            申請人：　　　　　　　　（中文正楷簽名）西元　　　　年　　月　　日<br><br>
+            統計室主任：　　　　　　（中文正楷簽名）西元　　　　年　　月　　日<br><br>
+          </td>
+        </tr>
+    </table>
+    <input type="button" value="完成，送出申請" onclick="location.href='要前往的網頁連結'">
+    <input type="button" value="列印申請單" onclick="location.href='要前往的網頁連結'">
+  </center>     
+</body>
+</html>
